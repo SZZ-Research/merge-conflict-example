@@ -48,7 +48,7 @@ public class Goods {
     public void caculatePrice(){
         this.price = 0;
         for (int i=0; i < this.products.size(); i++ ){
-            this.price += this.products.get(i).getPrice();
+            this.price =+ this.products.get(i).getPrice();
         }
     }
 }
