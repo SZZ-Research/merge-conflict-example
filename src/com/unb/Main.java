@@ -8,8 +8,8 @@ public class Main {
         System.out.println("SuperMarketCalculator");
         Register register = new Register();
         Goods goods = register.saller();
-        System.out.println("Saller = " + goods.getSaller());
-        System.out.println("Buyer = " + goods.getBuyer());
+        System.out.println("Saller = " + goods.getSaller().getName());
+        System.out.println("Buyer = " + goods.getBuyer().getName());
         System.out.println("Price = " + goods.getPrice());
     }
 }
