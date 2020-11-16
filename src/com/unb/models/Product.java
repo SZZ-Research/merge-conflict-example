@@ -1,10 +1,10 @@
 package com.unb.models;
 
 public class Product {
-    private String price;
+    private float price;
     private String name;
 
-    public void setPrice(String price){
+    public void setPrice(float price){
         this.price = price;
     }
 
@@ -12,11 +12,11 @@ public class Product {
         this.name = name;
     }
 
-    public String getPrice(String price){
+    public float getPrice(){
         return this.price;
     }
 
-    public String getName(String name){
+    public String getName(){
         return this.name;
     }
 }

@@ -30,4 +30,8 @@ public class Goods {
     public void setBuyer(Buyer buyer) {
         this.buyer = buyer;
     }
+
+    public void addProduct(Product product){
+        this.products.add(product);
+    }
 }
