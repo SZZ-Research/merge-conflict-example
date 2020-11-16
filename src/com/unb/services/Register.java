@@ -1,8 +1,10 @@
 package com.unb.services;
 
 
-public class SallerService {
+import com.unb.models.Product;
+
+public class Register {
     public void saller(){
-        System.out.println("Compras");
+        Product product = new Product();
     }
 }
