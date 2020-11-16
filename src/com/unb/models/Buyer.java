@@ -19,4 +19,5 @@ public class Buyer {
 
     private String id;
     private String name;
+    private int age;
 }
